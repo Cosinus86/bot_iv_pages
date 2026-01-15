@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html prefix="og: https://ogp.me/ns#">
+<head>
+    <meta property="og:title" content="📚 Тест превью" />
+    <meta property="og:description" content="Кликабельная картинка-ссылка в бота" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/cosinus86/cosinus86.github.io/main/-_-/webapp_files/screenshot.jpg" />
+    <meta property="og:url" content="https://cosinus86.github.io/-_-/test_preview.html" />
+    
+    <script>
+        // Мгновенный редирект в Telegram
+        if (navigator.userAgent.includes('Telegram')) {
+            window.location.href = 'https://t.me/VideomatRC_bot?start=test_section';
+        }
+    </script>
+</head>
+<body>
+    <h1>Тест превью</h1>
+    <p>Если вы видите этот текст, вы не в Telegram.</p>
+    <p>В Telegram произойдет мгновенный редирект в бота.</p>
+</body>
+</html>
